@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+body,
+input,
+form button{
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+}
+body{
+  background-image: linear-gradient(rgba(4, 4, 116, 0.5), rgba(24, 24, 23, 0.5)), url("./imagens/cidadePixel.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: black;
+  height: 101%;
+  margin: -1px 0px 0px -1px;
+  object-fit: cover;
+  padding: 0px;
+  position: absolute;
+  width: 101%;
+}
+h1,
+h2 {
+  /* background-color: aqua; */
+  color:antiquewhite; 
+  /* align-items: end; */
+  text-align: center;
+  cursor: default;
+} 
+form > input {
+  display: block;
+  background-color: rgb(44, 44, 118);
+  color: white; 
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin: 11px;
+  cursor: pointer;
+  /* text-align: center; */
+  resize: none;
+  width: 532px;
+}
+.conteiner{
+  height: 200px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+  max-width: 640px;
+  
+  /* height: 8em;  */
+  /* width: 100%; */
+  /* border: 1px solid black */
+}
+form{
+  border: ridge 10px rgb(44, 44, 118);
+  height: 250px;
+  width: 700px;
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: center;
+  align-items: center;
+
+}
+form button {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 9px;
+}
+form button {
+  color: white;
+  background-color: rgb(44, 44, 118);
+  /* border: none; */
+  cursor: pointer;
+}
+form button:hover{
+  background-color: rgb(46, 46, 232);
+  color: black;
+}
+.mensagem-de-erro{
+  background-color: red;
+  color: antiquewhite;
+  margin: 8px;
+  padding: 8px;
+  display: none;
+  text-align: center;
+  min-width: 80%;
+  
+}
+.mensagem-de-sucesso{
+  background-color: blue;
+  padding: 8px;
+  color: antiquewhite;
+  margin: 8px;
+  display: none;
+  min-width: 80%;
+  text-align: center;
+}
